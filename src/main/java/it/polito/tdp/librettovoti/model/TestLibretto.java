@@ -7,6 +7,7 @@ public class TestLibretto {
 	
 	public static void main(String[] args) {
 		
+		//PUNTO 1
 		Libretto libretto = new Libretto();
 		Voto voto1 = new Voto("Analisi 1", 20, LocalDate.of(2019, 2, 15));
 		Voto voto2 = new Voto("Analisi 2", 25, LocalDate.of(2019, 3, 20));
@@ -31,6 +32,8 @@ public class TestLibretto {
 		libretto.add(voto10);
 		
 		System.out.println(libretto);
+		
+//		 PUNTO 2
 		
 		//Proviamo a stampare la lista, ma poco funzionale
 		//List<Voto> venticinque = libretto.listaVotiUguali(25);
